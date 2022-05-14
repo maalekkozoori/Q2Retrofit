@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentFlickr"
+        android:icon="@drawable/photo_library_24"
+        android:title="Photos" />
+    <item
+        android:id="@+id/fragmentSearch"
+        android:icon="@drawable/ic_baseline_image_search_24"
+        android:title="Search" />
+</menu>

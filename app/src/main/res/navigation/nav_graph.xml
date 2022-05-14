@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentFlickr">
+
+    <fragment
+        android:id="@+id/fragmentFlickr"
+        android:name="com.example.q2retrofit.ui.paging.FragmentFlickr"
+        android:label="FragmentFlickr" />
+    <fragment
+        android:id="@+id/fragmentSearch"
+        android:name="com.example.q2retrofit.ui.search.FragmentSearch"
+        android:label="FragmentSearch" />
+</navigation>
